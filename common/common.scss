@@ -1,14 +1,20 @@
-.hello-world-banner {
-    height: 300px;
-    width: 100%;
-    background: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
+.d-header {
+    background-color: white;
 }
 
-.hello-world {
-    font-size: 8em;
+body {
+    background-color: #DAF7A6;
+    
+}
+
+.alert.alert-info {
+    background-color: #c09d55;
     color: white;
+}
+
+:root {
+    --tertiary:  black;
+    --quaternary:  #c09d55;
+    --tertiary-hover:  #c09d55;
+
 }
